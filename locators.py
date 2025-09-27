@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 
-
 class MainPageLocators:
 
     main_form = (By.XPATH, ".//main[@class = 'App_componentContainer__2JC2W']")
