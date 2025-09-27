@@ -1,4 +1,3 @@
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -13,7 +12,7 @@ class AuthHelper:
         """Ждем исчезновения модального оверлея, если он есть"""
         try:
             WebDriverWait(driver, 5).until(
-                EC.invisibility_of_element_located(CommonLocators.modal_overlay)
+                EC.invisibility_of_element_located(CommonLocators.personal_account_btn)
             )
         except:
             pass
