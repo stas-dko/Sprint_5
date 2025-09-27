@@ -1,4 +1,3 @@
-# tests/test_login.py
 from urls import URLS
 from locators import MainPageLocators, RegistrationPageLocators, RecoverPageLocators
 from helpers.auth_helpers import AuthHelper
