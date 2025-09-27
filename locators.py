@@ -1,10 +1,12 @@
 from selenium.webdriver.common.by import By
 
+
 class CommonLocators:
     constructor_btn = (By.XPATH, ".//p[text() = 'Конструктор']")
     order_feed_btn = (By.XPATH, ".//p[text() = 'Лента Заказов']")
     logo_btn = (By.XPATH, ".//div[@class = 'AppHeader_header__logo__2D0X2']")
     personal_account_btn = (By.XPATH, ".//p[text() = 'Личный Кабинет']")
+
 
 class MainPageLocators:
     main_form = (By.XPATH, ".//main[@class = 'App_componentContainer__2JC2W']")
@@ -28,6 +30,7 @@ class AuthPageLocators:
     login_account_btn = (By.XPATH, "//button[text() = 'Войти']")
     registration_btn = (By.XPATH, "//a[text() = 'Зарегистрироваться']")
     recover_btn = (By.XPATH, "//a[text() = 'Восстановить пароль']")
+
 
 class RegistrationPageLocators:
     name_input = (By.XPATH, "(.//input[@name = 'name'])[1]")
